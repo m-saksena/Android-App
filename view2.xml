@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:weightSum="1">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAKE PICTURE" />
+
+    <Button
+        android:id="@+id/viewjourney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Journey" />
+
+    <Button
+        android:id="@+id/resetjourney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET Journey" />
+
+</LinearLayout>
+
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/imgView"
+    android:layout_weight="0.51" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/abc" />
+
+</LinearLayout>
